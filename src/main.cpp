@@ -13,7 +13,7 @@ const char* mqtt_server = "YOURMQTTSERVER";
 #define MQTT_PASSWORD "" //can be blank
 #define MQTT_SERIAL_PUBLISH_CH "/spanet/serialdata/tx"
 #define MQTT_SERIAL_RECEIVER_CH "/spanet/serialdata/rx"
-#define D5 (14) //goes to tx on spanet pin5
+#define D5 (14) //goes to rx on spanet pin5
 #define D6 (12) //goes to tx on spanet pin6
 #define BAUD_RATE 38400
 
